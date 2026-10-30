@@ -53,3 +53,4 @@ def test_delete():
     
     result = db.execute(sql_new_sub).all()
     assert (len(result)== 0), f"Ошибка: Предмет не был удален! В базе найдено записей: {len(result)}"
+    
